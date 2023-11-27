@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gems> 
+  <!--GEMS Control File-->  
+  <!--
+
+-->  
+  <ModelConfig>
+    <!--Supported Software Version of this file-->
+    <VersionSW>2.0.0</VersionSW>
+    <!--Model to run:0-Century, 1-EDCM, 2-PBN, 3-EnFK_EDCM-->
+    <Model>1</Model>
+    <AutoCalibration>0</AutoCalibration>
+    <!--Scenario  to run:   0-alb,  1-a2,  2-b1,  3-b2,  2-4-rcp26, 0-5-rcp45, 3-6-rcp60, 1-7-rcp85-->
+    <Scenario>2</Scenario>
+    <GridSizeX>2067</GridSizeX>
+    <GridSizeY>1136</GridSizeY>
+    <XStartCoord>-852356.7</XStartCoord>
+    <YStartCoord>4523980</YStartCoord>
+    <XWindowSize>200</XWindowSize>
+    <YWindowSize>200</YWindowSize>
+    <XWindowStart>0</XWindowStart>
+    <YWindowStart>0</YWindowStart>
+    <XWindowEnd>2066</XWindowEnd>
+    <YWindowEnd>1135</YWindowEnd>
+    <RowScale>10</RowScale>
+    <ColScale>10</ColScale>
+    <HistoricStartYear>1992</HistoricStartYear>
+    <HistoricEndYear>2015</HistoricEndYear>
+    <ScenarioStartYear>2016</ScenarioStartYear>
+    <ScenarioEndYear>2050</ScenarioEndYear>
+    <CombineYears>2</CombineYears>
+    <BasePixelSize>1000</BasePixelSize>
+  </ModelConfig>
+</gems>
